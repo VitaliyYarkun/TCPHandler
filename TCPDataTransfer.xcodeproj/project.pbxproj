@@ -14,6 +14,9 @@
 		EFEBEA851CB0F9E6004B3157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEBEA831CB0F9E6004B3157 /* Main.storyboard */; };
 		EFEBEA901CB0F9E6004B3157 /* TCPDataTransferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEA8F1CB0F9E6004B3157 /* TCPDataTransferTests.m */; };
 		EFEBEA9B1CB0F9E6004B3157 /* TCPDataTransferUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEA9A1CB0F9E6004B3157 /* TCPDataTransferUITests.m */; };
+		EFEBEAAA1CB0FB3C004B3157 /* GUIHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEAA91CB0FB3C004B3157 /* GUIHandler.m */; };
+		EFEBEAAD1CB0FC88004B3157 /* ServerThread.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEAAC1CB0FC88004B3157 /* ServerThread.m */; };
+		EFEBEAB01CB0FC9B004B3157 /* ClientThread.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEAAF1CB0FC9B004B3157 /* ClientThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,12 @@
 		EFEBEA961CB0F9E6004B3157 /* TCPDataTransferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCPDataTransferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEBEA9A1CB0F9E6004B3157 /* TCPDataTransferUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPDataTransferUITests.m; sourceTree = "<group>"; };
 		EFEBEA9C1CB0F9E6004B3157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFEBEAA81CB0FB3C004B3157 /* GUIHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIHandler.h; sourceTree = "<group>"; };
+		EFEBEAA91CB0FB3C004B3157 /* GUIHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUIHandler.m; sourceTree = "<group>"; };
+		EFEBEAAB1CB0FC88004B3157 /* ServerThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerThread.h; sourceTree = "<group>"; };
+		EFEBEAAC1CB0FC88004B3157 /* ServerThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerThread.m; sourceTree = "<group>"; };
+		EFEBEAAE1CB0FC9B004B3157 /* ClientThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientThread.h; sourceTree = "<group>"; };
+		EFEBEAAF1CB0FC9B004B3157 /* ClientThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +116,12 @@
 				EFEBEA831CB0F9E6004B3157 /* Main.storyboard */,
 				EFEBEA861CB0F9E6004B3157 /* Info.plist */,
 				EFEBEA7B1CB0F9E6004B3157 /* Supporting Files */,
+				EFEBEAA81CB0FB3C004B3157 /* GUIHandler.h */,
+				EFEBEAA91CB0FB3C004B3157 /* GUIHandler.m */,
+				EFEBEAAB1CB0FC88004B3157 /* ServerThread.h */,
+				EFEBEAAC1CB0FC88004B3157 /* ServerThread.m */,
+				EFEBEAAE1CB0FC9B004B3157 /* ClientThread.h */,
+				EFEBEAAF1CB0FC9B004B3157 /* ClientThread.m */,
 			);
 			path = TCPDataTransfer;
 			sourceTree = "<group>";
@@ -268,7 +283,10 @@
 			files = (
 				EFEBEA801CB0F9E6004B3157 /* ViewController.m in Sources */,
 				EFEBEA7D1CB0F9E6004B3157 /* main.m in Sources */,
+				EFEBEAAA1CB0FB3C004B3157 /* GUIHandler.m in Sources */,
 				EFEBEA7A1CB0F9E6004B3157 /* AppDelegate.m in Sources */,
+				EFEBEAB01CB0FC9B004B3157 /* ClientThread.m in Sources */,
+				EFEBEAAD1CB0FC88004B3157 /* ServerThread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
