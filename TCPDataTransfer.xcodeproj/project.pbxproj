@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFEBEA7A1CB0F9E6004B3157 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEA791CB0F9E6004B3157 /* AppDelegate.m */; };
+		EFEBEA7D1CB0F9E6004B3157 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEA7C1CB0F9E6004B3157 /* main.m */; };
+		EFEBEA801CB0F9E6004B3157 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEA7F1CB0F9E6004B3157 /* ViewController.m */; };
+		EFEBEA821CB0F9E6004B3157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEBEA811CB0F9E6004B3157 /* Assets.xcassets */; };
+		EFEBEA851CB0F9E6004B3157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEBEA831CB0F9E6004B3157 /* Main.storyboard */; };
+		EFEBEA901CB0F9E6004B3157 /* TCPDataTransferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEA8F1CB0F9E6004B3157 /* TCPDataTransferTests.m */; };
+		EFEBEA9B1CB0F9E6004B3157 /* TCPDataTransferUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEBEA9A1CB0F9E6004B3157 /* TCPDataTransferUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFEBEA8C1CB0F9E6004B3157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFEBEA6D1CB0F9E6004B3157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFEBEA741CB0F9E6004B3157;
+			remoteInfo = TCPDataTransfer;
+		};
+		EFEBEA971CB0F9E6004B3157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFEBEA6D1CB0F9E6004B3157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFEBEA741CB0F9E6004B3157;
+			remoteInfo = TCPDataTransfer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFEBEA751CB0F9E6004B3157 /* TCPDataTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCPDataTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEBEA781CB0F9E6004B3157 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFEBEA791CB0F9E6004B3157 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFEBEA7C1CB0F9E6004B3157 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFEBEA7E1CB0F9E6004B3157 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFEBEA7F1CB0F9E6004B3157 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFEBEA811CB0F9E6004B3157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFEBEA841CB0F9E6004B3157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFEBEA861CB0F9E6004B3157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFEBEA8B1CB0F9E6004B3157 /* TCPDataTransferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCPDataTransferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEBEA8F1CB0F9E6004B3157 /* TCPDataTransferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPDataTransferTests.m; sourceTree = "<group>"; };
+		EFEBEA911CB0F9E6004B3157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFEBEA961CB0F9E6004B3157 /* TCPDataTransferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCPDataTransferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEBEA9A1CB0F9E6004B3157 /* TCPDataTransferUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPDataTransferUITests.m; sourceTree = "<group>"; };
+		EFEBEA9C1CB0F9E6004B3157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFEBEA721CB0F9E6004B3157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEBEA881CB0F9E6004B3157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEBEA931CB0F9E6004B3157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFEBEA6C1CB0F9E6004B3157 = {
+			isa = PBXGroup;
+			children = (
+				EFEBEA771CB0F9E6004B3157 /* TCPDataTransfer */,
+				EFEBEA8E1CB0F9E6004B3157 /* TCPDataTransferTests */,
+				EFEBEA991CB0F9E6004B3157 /* TCPDataTransferUITests */,
+				EFEBEA761CB0F9E6004B3157 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFEBEA761CB0F9E6004B3157 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFEBEA751CB0F9E6004B3157 /* TCPDataTransfer.app */,
+				EFEBEA8B1CB0F9E6004B3157 /* TCPDataTransferTests.xctest */,
+				EFEBEA961CB0F9E6004B3157 /* TCPDataTransferUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFEBEA771CB0F9E6004B3157 /* TCPDataTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				EFEBEA781CB0F9E6004B3157 /* AppDelegate.h */,
+				EFEBEA791CB0F9E6004B3157 /* AppDelegate.m */,
+				EFEBEA7E1CB0F9E6004B3157 /* ViewController.h */,
+				EFEBEA7F1CB0F9E6004B3157 /* ViewController.m */,
+				EFEBEA811CB0F9E6004B3157 /* Assets.xcassets */,
+				EFEBEA831CB0F9E6004B3157 /* Main.storyboard */,
+				EFEBEA861CB0F9E6004B3157 /* Info.plist */,
+				EFEBEA7B1CB0F9E6004B3157 /* Supporting Files */,
+			);
+			path = TCPDataTransfer;
+			sourceTree = "<group>";
+		};
+		EFEBEA7B1CB0F9E6004B3157 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFEBEA7C1CB0F9E6004B3157 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFEBEA8E1CB0F9E6004B3157 /* TCPDataTransferTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFEBEA8F1CB0F9E6004B3157 /* TCPDataTransferTests.m */,
+				EFEBEA911CB0F9E6004B3157 /* Info.plist */,
+			);
+			path = TCPDataTransferTests;
+			sourceTree = "<group>";
+		};
+		EFEBEA991CB0F9E6004B3157 /* TCPDataTransferUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFEBEA9A1CB0F9E6004B3157 /* TCPDataTransferUITests.m */,
+				EFEBEA9C1CB0F9E6004B3157 /* Info.plist */,
+			);
+			path = TCPDataTransferUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFEBEA741CB0F9E6004B3157 /* TCPDataTransfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEBEA9F1CB0F9E6004B3157 /* Build configuration list for PBXNativeTarget "TCPDataTransfer" */;
+			buildPhases = (
+				EFEBEA711CB0F9E6004B3157 /* Sources */,
+				EFEBEA721CB0F9E6004B3157 /* Frameworks */,
+				EFEBEA731CB0F9E6004B3157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCPDataTransfer;
+			productName = TCPDataTransfer;
+			productReference = EFEBEA751CB0F9E6004B3157 /* TCPDataTransfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFEBEA8A1CB0F9E6004B3157 /* TCPDataTransferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEBEAA21CB0F9E6004B3157 /* Build configuration list for PBXNativeTarget "TCPDataTransferTests" */;
+			buildPhases = (
+				EFEBEA871CB0F9E6004B3157 /* Sources */,
+				EFEBEA881CB0F9E6004B3157 /* Frameworks */,
+				EFEBEA891CB0F9E6004B3157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFEBEA8D1CB0F9E6004B3157 /* PBXTargetDependency */,
+			);
+			name = TCPDataTransferTests;
+			productName = TCPDataTransferTests;
+			productReference = EFEBEA8B1CB0F9E6004B3157 /* TCPDataTransferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFEBEA951CB0F9E6004B3157 /* TCPDataTransferUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEBEAA51CB0F9E6004B3157 /* Build configuration list for PBXNativeTarget "TCPDataTransferUITests" */;
+			buildPhases = (
+				EFEBEA921CB0F9E6004B3157 /* Sources */,
+				EFEBEA931CB0F9E6004B3157 /* Frameworks */,
+				EFEBEA941CB0F9E6004B3157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFEBEA981CB0F9E6004B3157 /* PBXTargetDependency */,
+			);
+			name = TCPDataTransferUITests;
+			productName = TCPDataTransferUITests;
+			productReference = EFEBEA961CB0F9E6004B3157 /* TCPDataTransferUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFEBEA6D1CB0F9E6004B3157 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vitaliy Yarkun";
+				TargetAttributes = {
+					EFEBEA741CB0F9E6004B3157 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EFEBEA8A1CB0F9E6004B3157 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EFEBEA741CB0F9E6004B3157;
+					};
+					EFEBEA951CB0F9E6004B3157 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EFEBEA741CB0F9E6004B3157;
+					};
+				};
+			};
+			buildConfigurationList = EFEBEA701CB0F9E6004B3157 /* Build configuration list for PBXProject "TCPDataTransfer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFEBEA6C1CB0F9E6004B3157;
+			productRefGroup = EFEBEA761CB0F9E6004B3157 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFEBEA741CB0F9E6004B3157 /* TCPDataTransfer */,
+				EFEBEA8A1CB0F9E6004B3157 /* TCPDataTransferTests */,
+				EFEBEA951CB0F9E6004B3157 /* TCPDataTransferUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFEBEA731CB0F9E6004B3157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEBEA821CB0F9E6004B3157 /* Assets.xcassets in Resources */,
+				EFEBEA851CB0F9E6004B3157 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEBEA891CB0F9E6004B3157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEBEA941CB0F9E6004B3157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFEBEA711CB0F9E6004B3157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEBEA801CB0F9E6004B3157 /* ViewController.m in Sources */,
+				EFEBEA7D1CB0F9E6004B3157 /* main.m in Sources */,
+				EFEBEA7A1CB0F9E6004B3157 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEBEA871CB0F9E6004B3157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEBEA901CB0F9E6004B3157 /* TCPDataTransferTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEBEA921CB0F9E6004B3157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEBEA9B1CB0F9E6004B3157 /* TCPDataTransferUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFEBEA8D1CB0F9E6004B3157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFEBEA741CB0F9E6004B3157 /* TCPDataTransfer */;
+			targetProxy = EFEBEA8C1CB0F9E6004B3157 /* PBXContainerItemProxy */;
+		};
+		EFEBEA981CB0F9E6004B3157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFEBEA741CB0F9E6004B3157 /* TCPDataTransfer */;
+			targetProxy = EFEBEA971CB0F9E6004B3157 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFEBEA831CB0F9E6004B3157 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFEBEA841CB0F9E6004B3157 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFEBEA9D1CB0F9E6004B3157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EFEBEA9E1CB0F9E6004B3157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EFEBEAA01CB0F9E6004B3157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TCPDataTransfer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitaliyyarkun.TCPDataTransfer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFEBEAA11CB0F9E6004B3157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TCPDataTransfer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitaliyyarkun.TCPDataTransfer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFEBEAA31CB0F9E6004B3157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TCPDataTransferTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitaliyyarkun.TCPDataTransferTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCPDataTransfer.app/Contents/MacOS/TCPDataTransfer";
+			};
+			name = Debug;
+		};
+		EFEBEAA41CB0F9E6004B3157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TCPDataTransferTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitaliyyarkun.TCPDataTransferTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCPDataTransfer.app/Contents/MacOS/TCPDataTransfer";
+			};
+			name = Release;
+		};
+		EFEBEAA61CB0F9E6004B3157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TCPDataTransferUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitaliyyarkun.TCPDataTransferUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TCPDataTransfer;
+			};
+			name = Debug;
+		};
+		EFEBEAA71CB0F9E6004B3157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TCPDataTransferUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitaliyyarkun.TCPDataTransferUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TCPDataTransfer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFEBEA701CB0F9E6004B3157 /* Build configuration list for PBXProject "TCPDataTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEBEA9D1CB0F9E6004B3157 /* Debug */,
+				EFEBEA9E1CB0F9E6004B3157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFEBEA9F1CB0F9E6004B3157 /* Build configuration list for PBXNativeTarget "TCPDataTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEBEAA01CB0F9E6004B3157 /* Debug */,
+				EFEBEAA11CB0F9E6004B3157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFEBEAA21CB0F9E6004B3157 /* Build configuration list for PBXNativeTarget "TCPDataTransferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEBEAA31CB0F9E6004B3157 /* Debug */,
+				EFEBEAA41CB0F9E6004B3157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFEBEAA51CB0F9E6004B3157 /* Build configuration list for PBXNativeTarget "TCPDataTransferUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEBEAA61CB0F9E6004B3157 /* Debug */,
+				EFEBEAA71CB0F9E6004B3157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFEBEA6D1CB0F9E6004B3157 /* Project object */;
+}
